@@ -34,5 +34,4 @@ class BeerServiceImplTest {
         Beer res = beerService.create(createBeerRequest);
         Assertions.assertThat(res.type()).isEqualTo("IPA");
     }
-
 }

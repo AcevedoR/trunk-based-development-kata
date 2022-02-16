@@ -29,11 +29,10 @@ public final class Rating {
         this.rate = rate;
     }
 
-    public void create(Consumer<Rating> saveFunction) {
-        // TODO add tests
-        // TODO TDD duplication check
-        // TODO implement duplication check && feature flag
-        saveFunction.accept(this);
+    public void create(Consumer<Rating> persistFunction) {
+        // kata TODO TDD duplication check
+        // kata TODO implement duplication check && feature flag
+        persistFunction.accept(this);
     }
 
 

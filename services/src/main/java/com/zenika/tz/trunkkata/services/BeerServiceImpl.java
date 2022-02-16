@@ -40,7 +40,7 @@ public class BeerServiceImpl implements BeerService {
 
     @Override
     public void rate(String beer, Rating rating) {
-        Consumer<Rating> saveRatingFunction = ratingRepository::save;
-        rating.create(saveRatingFunction);
+        Consumer<Rating> persistFunction = ratingRepository::save;
+        rating.create(persistFunction);
     }
 }
