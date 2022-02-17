@@ -86,5 +86,4 @@ class IPARuleImplTest {
         return listOfArguments.stream();
     }
 
-
 }

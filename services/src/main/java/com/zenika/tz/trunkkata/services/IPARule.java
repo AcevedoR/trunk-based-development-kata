@@ -4,7 +4,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class IPARule {
-    // TODO kata entirely rework this method
     public String determineIPAType(final Double alcool, final Integer ibu) {
         if (alcool >= 10 && (ibu >= 100)) {
             return "Triple IPA";

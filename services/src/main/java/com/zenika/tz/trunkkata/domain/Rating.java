@@ -30,8 +30,7 @@ public final class Rating {
     }
 
     public void create(Consumer<Rating> persistFunction) {
-        // kata TODO TDD duplication check
-        // kata TODO implement duplication check && feature flag
+        // TODO kata, Feature toggle: rating forbidden in working hours
         persistFunction.accept(this);
     }
 
