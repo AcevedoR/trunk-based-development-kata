@@ -25,7 +25,7 @@ public class BeerServiceImpl implements BeerService {
         this.ratingRepository = ratingRepository;
         this.ipaRule = ipaRule;
     }
-// d
+// dd
     @Override
     public Beer create(final CreateBeerRequest createBeerRequest) {
         // TODO kata, Branch by abstraction: rework IPA type rule
